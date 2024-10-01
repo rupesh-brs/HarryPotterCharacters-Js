@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(harry_bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed; 
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#search-id {
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px; 
+    width: 100%;
+    border-radius: 7px;
+    border: #ccc;
+}
+
+#search-button {
+    padding: 10px;
+    font-size: 16px; 
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    border-radius:20px;
+}
+
+.characters {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+}
+
+#left {
+    float: left;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 15px; 
+    flex: 1; 
+}
+
+#left h3 {
+    margin: 10px 0; 
+    font-weight: 700; 
+}
+
+#left h5 {
+    margin: 5px 0; 
+    font-weight: 400; 
+}
+
+#right {
+    display: flex; 
+    align-items: center; 
+    flex: 1; 
+}
+
+#right img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.character {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#character-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
